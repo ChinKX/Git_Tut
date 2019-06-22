@@ -198,3 +198,325 @@ $ git commit
  
 user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
 $ clear
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ history
+    1  git clone https://github.com/ChinKX/Felo.git
+    2  git config --global user.name "ChinKX"
+    3  git config --global user.email "chinkx1205@gmail.com"
+    4  git status
+    5  git push
+    6  mkdir /d/Users/Documents/Python
+    7  cd /d/Users/Documents/Python
+    8  git clone https://github.com/iamshaunjp/python-3-playlist.git
+    9  git clone --branch lesson-19 https://github.com/iamshaunjp/python-3-playlist.git
+   10  git clone --branch lesson-19 https://github.com/iamshaunjp/python-3-playlist.git lesson-19
+   11  git clone --branch lesson-19 https://github.com/iamshaunjp/python-3-playlist.git TheNetNinja-lesson-19
+   12  git clone https://jsonplaceholder.typicode.com/
+   13  git clone
+   14  git clone https://github.com/PoojaB26/ParsingJSON-Flutter.git
+   15  killall Dock
+   16  sudo touch /Applications/Visual\ Studio\ Code.app;
+   17  sudo touch /Applications/Visual\ Studio\ Code.app/Contents/Info.plist;
+   18  sudo touch /Applications/Visual\ Studio\ Code.app/Contents/Resources/Code.icns;
+   19  killall Dock Finder
+   20  git init
+   21  git init
+   22  git init
+   23  git init
+   24  git submodule add https://github.com/ChinKX/React-Native-Prac.git
+   25  git init
+   26  git submodule add git@mygithost:MyArticles MyArticles
+   27  git submodule add git@mygithost:MyArticles MyArticles
+   28  git submodule add git@mygithost:MyArticles MyArticles
+   29  git submodule add https://github.com/ChinKX/React-Native-Prac.git
+   30  git submodule add -b master https://github.com/ChinKX/React-Native-Prac.git
+   31  git submodule init
+   32  git add .
+   33  git status
+   34  git commit -m "First commit"
+   35  git submodule add https://github.com/ChinKX/React-Native-Prac.git
+   36  git submodule init
+   37  exit
+   38  git init
+   39  git add .
+   40  git commit -m "first commit"
+   41  git submodule add https://github.com/ChinKX/React-Native-Pracs.git MyArticles
+   42  git init
+   43  git add .
+   44  git commit -m "first commit"
+   45  git submodule add git@mygithost:MyArticles MyArticles
+   46  git init
+   47  git add .
+   48  git commit -m "first commit"
+   49  git submodule add https://github.com/ChinKX/React-Native-Pracs.git MyArticles
+   50  git submodule add https://github.com/ChinKX/React-Native-Pracs.git MyArticles
+   51  git init
+   52  git add .
+   53  git commit -m "first commit"
+   54  git submodule add https://github.com/ChinKX/React-Native-Pracs.git MyArticles
+   55  git push
+   56  git remote add origin https://github.com/ChinKX/React-Native-Pracs.git
+   57  git push
+   58  git push --set-upstream origin master
+   59  git add .
+   60  git status
+   61  git commit -m "Added insurance feature"
+   62  git push
+   63  git add .
+   64  git history
+   65  git --help
+   66  git log
+   67  git commit -m "Completed insurance feature"
+   68  git push
+   69  touch index.html
+   70  touch app.js
+   71  git init
+   72  git add index.html
+   73  git status
+   74  git rm --cached index.html
+   75  git status
+   76  git add *.html
+   77  git status
+   78  git rm --cached index.html
+   79  git add .
+   80  git status
+   81  git status
+   82  git add .
+   83  git status
+   84  git commit
+   85  git status
+   86  git status
+   87  git add .
+   88  git status
+   89  git commit -m 'Changed app.js'
+   90  git status
+   91  git add .
+   92  git status
+   93  git commit
+   94  history
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   GIT_Tut_Script.txt
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git commit -m "Added GIT_Tut_Script.txt"
+[master 1d0e06e] Added GIT_Tut_Script.txt
+ 1 file changed, 200 insertions(+)
+ create mode 100644 GIT_Tut_Script.txt
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ touch .gitignore
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ touch log.txt
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .gitignore
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   dir1/app1.js
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git branch login
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   dir1/app1.js
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git commit -m 'Added .gitignore'
+[master f42b91e] Added .gitignore
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 dir1/app1.js
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git checkout login
+Switched to branch 'login'
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (login)
+$ touch login.html
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (login)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (login)
+$ git commit -m 'login form'
+[login 9c73f57] login form
+ 3 files changed, 4 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 login.html
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (login)
+$ git checkout master
+Switched to branch 'master'
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git merge login
+Merge made by the 'recursive' strategy.
+ index.html | 1 +
+ login.html | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 login.html
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git log
+commit 57824c41cd5e874e32277a79b343e1c04f59b65a (HEAD -> master)
+Merge: f42b91e 9c73f57
+Author: ChinKX <chinkx1205@gmail.com>
+Date:   Sat Jun 22 16:05:40 2019 +0800
+
+    Merge branch 'login'
+    Added login
+
+commit 9c73f57927f4fcc5d28c83151b58d4938fd23fb7 (login)
+Author: ChinKX <chinkx1205@gmail.com>
+Date:   Sat Jun 22 16:04:37 2019 +0800
+
+    login form
+
+commit f42b91ec90ab17be5217a46a77dce9cef79bc1e7
+Author: ChinKX <chinkx1205@gmail.com>
+Date:   Sat Jun 22 16:02:51 2019 +0800
+
+    Added .gitignore
+
+commit 1d0e06e42536fbbf435223bafaba3b701c8fe423
+Author: ChinKX <chinkx1205@gmail.com>
+Date:   Sat Jun 22 15:53:06 2019 +0800
+
+    Added GIT_Tut_Script.txt
+
+commit b0c1b6cae65611ea7ef27c7b8049677f228d8118
+Author: ChinKX <chinkx1205@gmail.com>
+Date:   Sat Jun 22 15:49:20 2019 +0800
+
+    Changed GIT.pptx
+
+commit 916c4d3262eca7590e4ad242286bd53b42fc235b
+Author: ChinKX <chinkx1205@gmail.com>
+Date:   Sat Jun 22 15:47:04 2019 +0800
+
+    Changed app.js
+
+commit c03ab0ad4ead821f43297a0933f8e2051d9e1abd
+Author: ChinKX <chinkx1205@gmail.com>
+Date:   Sat Jun 22 15:42:08 2019 +0800
+
+     Initial commit
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git remote add origin https://github.com/ChinKX/Git_Tut.git
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git remote
+origin
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git push -u origin master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (25/25), 44.66 KiB | 2.23 MiB/s, done.
+Total 25 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/ChinKX/Git_Tut.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ touch README.md
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   README.md
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git commit -m 'Added README.md'
+[master acedcac] Added README.md
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 101.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ChinKX/Git_Tut.git
+   57824c4..acedcac  master -> master
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git commit -m 'Modified README.md'
+[master fc918bb] Modified README.md
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ChinKX/Git_Tut.git
+   acedcac..fc918bb  master -> master
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git clone https://github.com/ChinKX/Git_Tut.git
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git pull
