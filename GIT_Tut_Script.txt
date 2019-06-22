@@ -1,0 +1,200 @@
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut
+$ touch index.html
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut
+$ touch app.js
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut
+$ git init
+Initialized empty Git repository in D:/Users/Documents/Git/Git_Tut/.git/
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add index.html
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        GIT.pptx
+        app.js
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        GIT.pptx
+        app.js
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add *.html
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        GIT.pptx
+        app.js
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   GIT.pptx
+        new file:   app.js
+        new file:   index.html
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   GIT.pptx
+        new file:   app.js
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   GIT.pptx
+        new file:   app.js
+        new file:   index.html
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git commit
+[master (root-commit) c03ab0a]  Initial commit
+ 3 files changed, 8 insertions(+)
+ create mode 100644 GIT.pptx
+ create mode 100644 app.js
+ create mode 100644 index.html
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   app.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   app.js
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git commit -m 'Changed app.js'
+[master 916c4d3] Changed app.js
+ 1 file changed, 1 insertion(+)
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   GIT.pptx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git add .
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   GIT.pptx
+
+
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ git commit
+[master b0c1b6c] Changed GIT.pptx
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ 
+user10@DESKTOP-UVBLRSD MINGW64 /d/Users/Documents/Git/Git_Tut (master)
+$ clear
